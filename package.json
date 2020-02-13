@@ -1,0 +1,24 @@
+{
+  "name": "asincronismo-javascript",
+  "version": "1.0.0",
+  "description": "Practica de asincronismo",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js",
+    "callback:rickandmorty": "node src/callback/rickandmorty.js",
+    "promise": "node src/promise/index.js",
+    "promise:rickandmorty": "node src/promise/rickandmorty.js",
+    "async": "node src/async/index.js",
+    "async:rickandmorty": "node src/async/rickandmorty.js"
+  },
+  "keywords": [
+    "callback",
+    "promise",
+    "async"
+  ],
+  "author": "Ivan Acosta Lallemand",
+  "license": "MIT",
+  "devDependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
